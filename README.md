@@ -6,13 +6,15 @@ lwip library with NAT routing feature for Arduino environment
 
 将里面的"lwip"重命名成"lwip.orig"，再把这里下载的丢进去
 
+在工具菜单将"LwIP Variant"设置成"v1.4 Compile from source"
+
 Install the Arduino environment for the esp8266 as described here: https://github.com/esp8266/Arduino . As you are here, you probably did this already...
 
 This extension has been developed for the version 2.5 of the ESP8266 core. Switch to that in the Board Manager, if you havn't done already.
 
 Download this repo to some place. Go to the ".../packages/esp8266/hardware/esp8266/2.5.0/tools/sdk/" directory of your Arduino installation. Here you rename the directory "lwip" to "lwip.orig". Then you copy the complete directory "lwip" of this repo to this place (in fact you replace "lwip" with my implementation).
 
-Whenever you want to use this library, select *LwIP Variant: "v1.4 Compile from source* in the "Tools" menu of the Arduino shell.
+Whenever you want to use this library, select *LwIP Variant: "v1.4 Compile from source" in the "Tools" menu of the Arduino shell.
 
 ## Usage
 The new NAT functions are exported in the "lwip/lwip_napt.h" header:
