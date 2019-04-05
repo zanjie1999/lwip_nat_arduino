@@ -2,6 +2,10 @@
 lwip library with NAT routing feature for Arduino environment
 
 ## Install
+前往esp8266开发板的存储位置，它通常会存在C:\Users\用户名\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.0\tools\sdk
+
+将里面的"lwip"重命名成"lwip.orig"，再把这里下载的丢进去
+
 Install the Arduino environment for the esp8266 as described here: https://github.com/esp8266/Arduino . As you are here, you probably did this already...
 
 This extension has been developed for the version 2.5 of the ESP8266 core. Switch to that in the Board Manager, if you havn't done already.
